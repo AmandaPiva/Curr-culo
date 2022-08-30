@@ -1,281 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,700&family=Open+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif ;
+    font-family: "Nunito", sans-serif ;
  }
 
  body{
-     padding: 2rem;
-     background: #1C1C1C;
-     position: relative;
-     overflow-x: hidden;
- }
-
- .image img{
-     border-radius: 200px;
-     position: absolute;
-     top: 150px;
-     left: 100px;
- }
-
-
- span{
-    position: absolute;
-    color: #696969;
+    max-width: 400vw;
+    max-height: 400vh;
+    background:linear-gradient(180deg, #2E2B2B, #3C1A9D);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    left: 500px;
-    top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 35px;
-    font-family: 'Poppins';
  }
 
- .title{
-     position: absolute;
+ header{
+     display: flex;
+     flex-direction: column;
      align-items: center;
-     left: 680px;
-     top: 250px;
-     color: #9370DB;
-     font-size: 30px;
-     font-family: 'Poppins';
-     margin-left: auto;
-     margin-right: auto;
+     margin: auto;
+     margin-top: 5%;
  }
- 
-.media1{
-    position: absolute;
-    top: 300px;
-    left: 680px;
-    margin-top: 50px;
+
+ header .image{
+     margin-top: 5%;
+ }
+
+ header .image img{
+   border-radius: 150px;
 }
 
-.media1 img{
-    height: 35px;
-}
-
-.media1 h5{
-    position: absolute;
-    top: 8px;
-    left: 40px;
-}
-
-.media2{
-    position: absolute;
-    top: 350px;
-    left: 680px;
-    margin-top: 50px;
-}
-
-.media2 img{
-    height: 35px;
-}
-
-.media2 h5{
-    position: absolute;
-    top: 8px;
-    left: 40px;
+header span{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 7%;
 }
 
 .description{
-    position: absolute;
-    top:400px;
-    color: #696969;
-    font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 18px;
+    color: #CAB4B4;
+    margin-top: 8%;
+    text-align: center;
 }
 
-.talk{
-    color: #9370DB;
-    position: absolute;
-    top: 480px;
-    left: 120px;
-    font-size: 30px;
-}
-
-.conta{
-    position: absolute;
-    top: 500px;
-    left: 100px;
-    margin-top: 50px;
-}
-
-.conta img{
-    height: 35px;
-}
-
-.conta h5{
-    position: absolute;
-    top: 10px;
-    left: 40px;
-}
-
-.conta2{
-    position: absolute;
-    top: 500px;
-    left: 260px;
-    margin-top: 50px;
-}
-
-.conta2 img{
-    height: 35px;
-}
-
-.conta2 h5{
-    position: absolute;
-    top: 12px;
-    left: 40px;
+.description strong{
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
-    position: relative;
-    margin-top: 150px;
+    align-items: center;
 }
 
-main h2.title2{
-    position: absolute;
-    top: 550px;
-    left: 480px;
-    font-size: 30px;
-    font-family: 'Poppins';
-    color: #9370DB;
+.contato{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    width: 50%;
+    justify-content: space-between;
 }
 
-/* section.block{
-     display: table;
-}*/
-
-.icon1{
-    position: absolute;
-    top: 700px;
-    left: 400px;
-}
-
-.icon2{
-    position: absolute;
-    top: 900px;
-    left: 400px;
-}
-
-.icon3{
-    position: absolute;
-    top: 1100px;
-    left: 400px;
-}
-
-.icon4{
-    position: absolute;
-    top: 700px;
-    left: 850px;
-}
-
-.icon5{
-    position: absolute;
-    top: 900px;
-    left: 850px;
-       
-}
-
-.lang1{
-    font-size: 30px;
-    color: #696969;
-    position: absolute;
-    top: 750px;
-    left: 560px;
-}
-
-.lang2{
-    font-size: 30px;
-    color: #696969;
-    position: absolute;
-    top: 950px;
-    left: 560px;
-}
-
-.lang3{
-    font-size: 30px;
-    color: #696969;
-    position: absolute;
-    top: 1150px;
-    left: 560px;
-}
-
-.lang4{
-    font-size: 30px;
-    color: #696969;
-    position: absolute;
-    top: 760px;
-    left: 970px;
-    margin-left: 50px;
-}
-
-.lang5{
-    font-size: 30px;
-    color: #696969;
-    position: absolute;
-    top: 960px;
-    left: 970px;
-    margin-left: 50px;
-}
-
-.prof{
-    position: absolute;
-    margin-top: 7rem;
-    top: 1300px;
-    left:50px;
-    font-family: 'Poppins';
-}
-
-.prof h2{
-    font-size: 30px;
-    color: #9370DB;
-}
-
-.work{
-    position: absolute;
-    margin-top: 7rem;
-    margin-left: 25px;
-    top: 1350px;
-    left:50px;
-    font-family: 'Poppins';
-    font-size: 20px;
-    color:#696969;
-    position: relative;
-}
-
-.form h2{
-    position: relative;
-    top: 1250px;
-    left: 700px;
-    font-size: 30px;
-    color: #9370DB;
-}
-
-.cursos{
-    position: absolute;
-    top: 1450px;
-    left: 700px;
-    margin-left: 25px;
-    margin-top:10px;
-    color: #696969;
-    font-size: 20px;
-}
-footer{
-    position: absolute;
-    top: 1800px;
-    left: 500px;
-    margin: 4rem;
-    color: #696969;
-    font-weight: lighter;
-    font-style: italic;
+.talktome{
+    display: flex;
+    flex-direction: column;
 }
 
 
