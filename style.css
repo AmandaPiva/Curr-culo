@@ -428,6 +428,38 @@ footer h3{
     .media2 a h5{
         font-size: 14px;
     }
-}
+
+    .experience{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .experience .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .company{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .company img{
+        width: 20%;
+        height: 20%;
+        margin: auto;
+    }
+
+    .company p{
+        font-size: 15px;
+    }
+
+    
+
 
 
