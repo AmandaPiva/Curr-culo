@@ -164,7 +164,6 @@ main{
     color: #CAB4B4;
     font-size: 30px;
     margin: auto;
-    margin-right: 25%;
 }
 
 
@@ -186,13 +185,26 @@ main{
     margin-left: 42%;
 }
 
+.hardskills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
+.hardskills h2{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 300;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 8rem;
-    margin-top: 20%;
+    padding: 6rem;
+    margin-top: 5%;
     width: 130%;
+    border-radius: 3px;
     background:linear-gradient(180deg, #2E2B2B, #3C1A9D);
 }
 
@@ -201,5 +213,221 @@ main{
     margin: auto;
 }
 
+footer{
+    padding: 4rem;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3{
+    color: #FFFFFF;
+}
+
+/*responsive*/
+/*1156*/
+@media only screen and (min-width: 1156px) and (max-width: 1160px){
+    .experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 15%;
+    }
+     
+    .experience .title{
+        font-size: 23px;
+        text-align: center;
+        margin-left: 45%;
+    }
+
+    .company img{
+        width: 25%;
+    }
+    
+    .company p{
+        color: #CAB4B4;
+        font-size: 28px;
+        margin: auto;
+        margin-left: 5%;
+    }
+
+    .freela img{
+        width: 25%;
+    }
+
+    .freela p{
+        color: #CAB4B4;
+        font-size: 28px;
+        margin: auto;
+        margin-right: 5%;
+    }
+
+    .icons{
+        padding: 3rem;
+        width: 100%;
+    }
+
+    .icons img{
+        margin-left: 5%;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .hardskills h2{
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 300;
+    }   
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .image img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .experience{
+        width: 80%;
+        justify-content: center;
+    }
+
+    .experience .title{
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .company img{
+        width: 28%;
+    }
+
+    .company p{
+        font-size: 25px;
+        margin-left: 5%;
+    }
+
+    .freela img{
+        width: 28%;
+    }
+
+    .freela p{
+        font-size: 25px;
+    }
+    .hardskills h2{
+        font-size: 40px;
+    }  
+
+    .icons{
+        padding: 3rem;
+        width: 95%;
+    }
+
+    .icons img{
+        margin-left: 5%;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px){
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+    
+    header .image img{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-top: 15%;
+    }
+
+    header  span{
+        font-size: 20px;
+    } 
+    
+    .description{
+        font-size: 12px;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .talktome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .conta a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .conta a img{
+        width: 8%;
+        height: 8%;
+        margin: auto;
+    }
+    .conta a h5{
+        font-size: 14px;
+    }
+
+    .conta2 a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .conta2 a img{
+        width: 8%;
+        height: 8%;
+        margin: auto;
+    }
+
+    .conta2 a h5{
+        font-size: 14px;
+    }
+
+    .media1 a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .media1 a img{
+        width: 8%;
+        height: 8%;
+        margin: auto;
+    }
+
+    .media1 a h5{
+        font-size: 14px;
+    }
+
+    .media2 a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .media2 a img{
+        width: 8%;
+        height: 8%;
+        margin: auto;
+    }
+
+    .media2 a h5{
+        font-size: 14px;
+    }
+}
 
 
