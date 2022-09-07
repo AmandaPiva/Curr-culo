@@ -30,6 +30,12 @@
 
  header .image img{
    border-radius: 150px;
+
+   /*sombrinha*/
+   filter: drop-shadow(
+    12px 9px 4px #260b2e
+    )
+
 }
 
 header span{
