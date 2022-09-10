@@ -562,8 +562,6 @@ footer h3{
         flex-direction: column;
     }
 
-
-
     .talktome .conta{
         display: flex;
         flex-direction: column;
@@ -727,8 +725,196 @@ footer h3{
 
 /*360-412*/
 
+@media only screen and (min-width: 360px) and (max-width: 412px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 100vw;
+        max-height: 100%;
+        margin: auto;
+    }
 
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    header .image img{
+        width: 20%;
+        height: 20%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header span{
+        font-size: 20px;
+    } 
+
+    header .description{
+        font-size: 15px;
+    }
+
+    .contato{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .contato .title h2{
+        font-size: 18px;
+    }
+
+    .talktome{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .conta{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .conta img{
+        width: 40%;
+        margin: auto;
+    }
+
+    .conta a{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .conta a h5{
+        font-size: 15px;
+    } 
+
+    .conta2 img{
+        width: 30%;
+        margin: auto;
+    }
+
+    .conta2 a{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .conta2 a h5{
+        font-size: 15px;
+    }
     
+    .social-media{
+        margin-top: 10%;
+    }
 
+    .media1 a{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
 
+    .media1 img{
+        margin: auto;
+    }
 
+    .media1 a h5{
+        font-size: 15px;
+    }
+
+    .media1 img{
+        width: 15%;
+    }
+    
+    .media2 a{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .media2 a h5{
+        font-size: 15px;
+    }
+
+    .media2 img{
+        width: 14%;
+        margin: auto;
+    }
+
+    .experience .title{
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .company{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company img{
+        width: 15%;
+        margin: auto;
+    }
+    
+    .company p{
+        font-size: 12px;
+        margin-top: 6%;
+    }
+
+    .freela{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .freela img{
+        width: 15%;
+        margin: auto;
+    }
+    
+    .freela p{
+        font-size: 12px;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    .hardskills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hardskills h2{
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    
+    .icons{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .icons img{
+        width: 40%;
+        height: 40%;
+        margin-bottom: 10%;        
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h3{
+        font-size: 20px;
+    }
+
+}
