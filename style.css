@@ -140,6 +140,27 @@ main{
     margin: auto;
 }
 
+.formacao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.formacao h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.formacao ul{
+    color: #CAB4B4;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.formacao li{
+    margin-top: 5%;
+}
+
 .experience{
     display: flex;
     flex-direction: column;
@@ -150,9 +171,9 @@ main{
 .experience .title{
     margin-top: 5%;
     color: #FFFFFF;
-    font-weight: 200;
+    font-weight: 100;
     margin-right: 50%;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .company{
@@ -232,56 +253,6 @@ footer h3{
 }
 
 /*responsive*/
-
-@media only screen and (min-width: 1024px){
-   
-
-    
-    .experience{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 15%;
-    }
-     
-    .experience .title{
-        font-size: 23px;
-        text-align: center;
-    }
-
-    .company img{
-        width: 25%;
-    }
-    
-    .company p{
-        color: #CAB4B4;
-        font-size: 28px;
-        margin: auto;
-        margin-left: 5%;
-    }
-
-    .freela img{
-        width: 25%;
-    }
-
-    .freela p{
-        color: #CAB4B4;
-        font-size: 28px;
-        margin: auto;
-        margin-right: 5%;
-    }
-
-    .icons{
-        width: 95%;
-
-    }
-
-    .icons img{
-        padding: 0;
-        margin-left: 0;
-    }
-}
 
 /*1156*/
 @media only screen and (min-width: 1156px) and (max-width: 1160px){
@@ -381,7 +352,7 @@ footer h3{
     }  
 
     .icons{
-        padding: 3rem;
+        width: 95%;
     }
 
     .icons img{
@@ -572,406 +543,4 @@ footer h3{
         width: 30%;
         height: 30%;
     }
-}
-
-@media only screen and (min-width: 280px) and (max-width: 360px){
-    body{
-        width: 280vw;
-        height: 200%;
-        margin: auto;
-    }
-
-    header{
-        width: 240vw;
-        margin: auto;
-    }
-
-    header .image img{
-        width: 18%;
-        height: 18%;
-        margin: auto;
-        margin-left: 40%;
-        align-items: center;
-    }
-
-    header span{
-        font-size: 10px;
-    }
-
-    header .description{
-        font-size: 8px;
-    }
-
-    .contato{
-        display: flex;
-        flex-direction: column;
-        width: 240vw;
-    }
-
-    .contato .title h2{
-        font-size: 15px;
-    }
-
-    .talktome{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .talktome .conta{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .conta a{
-        display: flex;
-        flex-direction: column;
-        margin-top: 15%;
-    }
-
-    .conta img{
-        width: 50%;
-        margin: auto;
-    }
-
-    .conta a h5{
-        margin-top: 5%;
-        margin: auto;
-        font-size: 10px;
-    } 
-    
-    .talktome .conta2{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .conta2 a{
-        display: flex;
-        flex-direction: column;
-        margin-top: 15%;
-    }
-
-    .conta2 img{
-        width: 50%;
-        margin: auto;
-    }
-
-    .conta2 a h5{
-        margin-top: 6%;
-        margin: auto;
-        font-size: 10px;
-    }
-
-
-    .social-media .media1{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .media1 a{
-        display: flex;
-        flex-direction: column;
-        margin-top: 15%;
-    }
-
-    .media1 img{
-        width: 40%;
-        margin: auto;
-    }
-
-    .media1 a h5{
-        margin-top: 6%;
-        margin: auto;
-        font-size: 10px;
-    }
-
-    .social-media .media2{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .media2 a{
-        display: flex;
-        flex-direction: column;
-        margin-top: 15%;
-    }
-
-    .media2 img{
-        width: 20%;
-        margin: auto;
-    }
-
-    .media2 a h5{
-        margin-top: 6%;
-        margin: auto;
-        font-size: 10px;
-    }
-
-    .experience{
-        display: flex;
-        flex-direction: column;
-        width: 280vw;
-    }
-
-    .experience .title{
-        margin: auto;
-        font-size: 10px;
-    }
-
-    .company{
-        display: flex;
-        flex-direction: column;
-        width: 280vw;
-    }
-
-    .company img{
-        margin: auto;
-        width: 13%;
-    }
-
-    .company p{
-        margin: auto;
-        margin-top: 5%;
-        font-size: 9px;
-    }
-
-    .freela{
-        display: flex;
-        flex-direction: column;
-        width: 280vw;
-    }
-
-    .freela img{
-        margin: auto;
-        width: 13%;
-    }
-
-    .freela p{
-        margin: auto;
-        margin-top: 5%;
-        font-size: 10px;
-    }
-
-    .hardskills h2{
-        font-size: 20px;
-    }
-
-    .icons{
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        padding-top: 0;
-    }
-
-    .icons img{
-        padding-top: 18%;
-        margin: auto;
-        width: 80%;
-        height: 80%;
-    }
-
-    footer h3{
-        font-size: 10px;
-    }
-}
-
-/*360-412*/
-
-@media only screen and (min-width: 360px) and (max-width: 412px){
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: 180%;
-        margin: auto;
-    }
-
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-        width: 50%;
-    }
-
-    header .image img{
-        width: 18%;
-        height: 18%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    header span{
-        font-size: 10px;
-    } 
-
-    header .description{
-        font-size: 5px;
-    }
-
-    .contato{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .contato .title h2{
-        font-size: 10px;
-    }
-
-    .talktome{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .conta{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .conta img{
-        width: 10%;
-        margin: auto;
-    }
-
-    .conta a{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        font-size: 10px;
-    }
-
-    .conta a h5{
-        font-size: 15px;
-    } 
-
-    .conta2 img{
-        width: 30%;
-        margin: auto;
-    }
-
-    .conta2 a{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .conta2 a h5{
-        font-size: 15px;
-    }
-    
-    .social-media{
-        margin-top: 10%;
-    }
-
-    .media1 a{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .media1 img{
-        margin: auto;
-    }
-
-    .media1 a h5{
-        font-size: 15px;
-    }
-
-    .media1 img{
-        width: 15%;
-    }
-    
-    .media2 a{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-    
-    .media2 a h5{
-        font-size: 15px;
-    }
-
-    .media2 img{
-        width: 14%;
-        margin: auto;
-    }
-
-    .experience .title{
-        font-size: 15px;
-        margin: auto;
-    }
-
-    .company{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .company img{
-        width: 15%;
-        margin: auto;
-    }
-    
-    .company p{
-        font-size: 12px;
-        margin-top: 6%;
-    }
-
-    .freela{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .freela img{
-        width: 15%;
-        margin: auto;
-    }
-    
-    .freela p{
-        font-size: 12px;
-        margin: auto;
-        margin-top: 6%;
-    }
-
-    .hardskills{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hardskills h2{
-        font-size: 25px;
-        margin-top: 5%;
-    }
-    
-    .icons{
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 10%;
-    }
-
-    .icons img{
-        width: 40%;
-        height: 40%;
-        margin-bottom: 10%;        
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer h3{
-        font-size: 20px;
-    }
-
 }
